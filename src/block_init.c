@@ -2,6 +2,33 @@
 #include<linux/module.h>
 
 
+static void blockdev_req_init(){
+
+
+
+}
+
+
+static void blockdev_preset(){
+
+
+
+}
+
+static void blockdev_sysfs_stats_exit(){
+
+
+
+}
+
+
+
+static void blockdev_sysfs_stats_init(){
+
+
+
+
+}
 
 
 /* initialization functio of the blockdevice 
@@ -19,6 +46,15 @@ static void blockdev_init(struct gendisk *sdisk){
 }
 
 
+/* deallocating all the memory 
+ * destorying the runnign config
+ * 
+ */
+static void blockdev_exit(void){
+
+
+
+}
 
 
 
